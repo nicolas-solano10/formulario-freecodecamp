@@ -3,7 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <title>Formulario de encuesta</title>
-    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 85%
+  );
+}
+
+#logo {
+  text-align: center;
+  margin: 30px auto 0;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px #ccc, 1px 1px 1px #ccc, 2px 2px 1px #ccc,
+    3px 3px 1px #ccc, 4px 4px 1px #ccc, 5px 5px 1px #ccc, 6px 6px 1px #ccc,
+    7px 7px 1px #ccc;
+}
+
+#title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+#description {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: white;
+}
+
+#survey-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 10px;
+  color: #ddd;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+  display: block;
+  width: 96%;
+  padding: 10px;
+  margin: 0 0 20px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+select {
+  width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+  box-shadow: 0 0 10px 5px #0077cc;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+#submit {
+  display: block;
+  width: 50%;
+  margin: 30px auto 0;
+  padding: 10px;
+  background-color: #0095ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+#submit:hover {
+  background-color: #005fa3;
+}
+    </style>
   </head>
   <body>
     <header>
